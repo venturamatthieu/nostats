@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%-stylesheets%>
+  </head>
+  <body>
+    <header>
+      <%-partial('../blocks/header')%>
+    </header>
+    <section>
+      <%-body -%>
+    </section>
+    <footer>
+      <%-partial('../blocks/footer')%>
+    </footer>
+    <%-scripts%>
+  </body>
+</html>
